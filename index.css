@@ -1,0 +1,506 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  font-family: "Robot", sans-serif;
+}
+
+.main-home {
+  position: sticky;
+  top: 0;
+}
+
+.homepage {
+  min-height: 100vh;
+  background-image: url("/img/andras-vas-Bd7gNnWJBkU-unsplash\ \(1\).jpg");
+  background-size: cover;
+  background-position: center right;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.logo h1,
+.logo span {
+  font-size: 2.2rem;
+}
+
+.logo #first-letter,
+.logo #second-letter {
+  color: #ffffff;
+}
+
+.wrapper {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  padding-left: 250px;
+}
+
+.wrapper span {
+  font-size: 48px;
+  color: #fff;
+}
+
+.information .btn {
+  width: 20rem;
+  height: 4rem;
+  background: none;
+  text-align: center;
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px red;
+  transition-property: border, color;
+  transition-property: 0.2s;
+  transition-timing-function: ease-out;
+}
+
+.information a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.3);
+  height: 100px;
+  transition: all 0.2s ease-in-out;
+  position: sticky;
+  top: 0;
+}
+
+.nav-bar .logo {
+  color: #fff;
+  font-size: 2.5rem;
+  margin-left: 150px;
+  font-weight: bold;
+}
+.information #third {
+  color: #fc0000;
+}
+
+.navigation {
+  justify-content: end;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.navigation ul {
+  display: flex;
+  list-style: none;
+  margin-right: 150px;
+  font-family: "Merriweather", serif;
+}
+
+.navigation ul a {
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 1.75rem;
+  color: #ffffff;
+  font-family: "Merriweather", serif;
+  transition: all 0.2s ease-in-out;
+}
+
+.container {
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+}
+
+.container .content {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.content p {
+  width: 60%;
+  margin: 5px auto;
+  font-size: 2rem;
+}
+
+.content h1 {
+  width: 100%;
+  margin: 15px auto;
+  font-size: 6rem;
+  font-family: "Edu VIC WA NT Beginner", cursive;
+}
+
+.content #text-i {
+  font-size: 6rem;
+  color: rgb(157, 8, 8);
+  font-family: "Edu VIC WA NT Beginner", cursive;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid .wrapper-1 {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.grid .wrapper-2 {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid .grid-container {
+  width: 30%;
+  height: 300px;
+  margin: 15px;
+  border: none;
+  background: rgb(138, 128, 226);
+  background: linear-gradient(
+    172deg,
+    rgba(138, 128, 226, 0.8897934173669468) 0%,
+    rgba(166, 92, 104, 1) 100%
+  );
+  opacity: 0.7;
+  transition: all 0.5s ease;
+}
+
+.grid #border-1 {
+  border-top-left-radius: 35px;
+}
+
+.grid #border-2 {
+  border-top-right-radius: 35px;
+}
+
+.grid #border-3 {
+  border-bottom-left-radius: 35px;
+}
+
+.grid #border-4 {
+  border-bottom-right-radius: 25px;
+}
+
+.grid img {
+  display: block;
+  margin: 5px auto;
+  object-fit: cover;
+  height: 45%;
+  width: 90%;
+  border-radius: 10px;
+}
+
+.grid .content {
+  width: 70%;
+  height: 10%;
+  margin: 5px auto;
+  margin-bottom: 15px;
+}
+
+.grid-container h3 {
+  font-family: "Edu+VIC+WA+NT", Courier, monospace;
+}
+
+.grid-container .header,
+.grid-container h3,
+.grid-container span {
+  margin-top: 15px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.grid-container .content {
+  font-size: 1.5rem;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+}
+
+.projects .pr-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 30%;
+  height: 60%;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.projects .pr-wrapper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects h2 {
+  margin-top: 50px;
+  font-size: 4.5em;
+  width: 100%;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.projects .pr-container {
+  border-radius: 15px;
+  text-align: center;
+}
+.projects .pr-container button {
+  text-decoration: none;
+  width: 40%;
+  height: 7%;
+  background-color: rgba(244, 172, 38, 0.968);
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+}
+
+.projects .pr-container a {
+  text-decoration: none;
+  color: #fff;
+  background-color: rgba(244, 172, 38, 0.968);
+}
+
+.projects .img {
+  margin-top: 5px;
+  width: 90%;
+  height: 40%;
+}
+
+.projects .img-1 {
+  background-image: url("/img/Vanilla\ Javascript.jpg");
+  object-fit: cover;
+  background-size: cover;
+  background-position: center center;
+}
+
+.projects .img-2 {
+  background-image: url("/img/Front\ End.jpg");
+  object-fit: cover;
+  background-size: cover;
+  background-position: center center;
+}
+
+.projects .img-3 {
+  background-image: url("/img/backend.jpg");
+  object-fit: cover;
+  background-size: cover;
+  background-position: center center;
+}
+
+.pr-container h3 {
+  font-size: 2.8em;
+  color: #0c0917;
+  width: 65%;
+}
+
+.pr-container p {
+  font-size: 1.5em;
+  color: #0c0917;
+  width: 85%;
+}
+
+.container .about {
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  height: 100vh;
+  position: relative;
+}
+
+.about .image {
+  background-image: url("/img/Picture.jpg");
+  object-fit: cover;
+  background-size: cover;
+  background-position: center center;
+  width: 30%;
+  height: 50%;
+  border-radius: 10px;
+  transition: all 0.5s ease-in-out;
+}
+
+.about .content-about {
+  width: 40%;
+  height: 40%;
+  margin-left: 20px;
+  padding: 10px 25px;
+}
+
+.about h3 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  font-family: "Merriweather", serif;
+}
+
+.about .btn {
+  margin-top: 50px;
+  border: 1px solid rgb(174, 2, 2);
+  height: 15%;
+  width: 40%;
+  transition-property: border, color;
+  transition-property: 0.2s;
+  transition-timing-function: ease-out;
+  background: none;
+}
+
+.about a {
+  text-decoration: none;
+  color: black;
+}
+
+.about p {
+  font-size: 1.5em;
+  color: black;
+}
+
+.container .contact {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  width: 100%;
+}
+
+.contact .contact-info {
+  display: flex;
+  width: 80%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact .contact-info .icon {
+  width: 50px;
+  height: 50px;
+  margin: auto 20px;
+  color: black;
+  transition: all 0.3s ease-in-out;
+}
+
+.container .footer {
+  padding-top: 15px;
+  height: 75px;
+  width: 100%;
+  background-color: rgb(17, 6, 6);
+  text-align: center;
+}
+
+.container .footer h2,
+.container .footer h3 {
+  color: #fff;
+  margin-top: 10px;
+  font-family: "Merriweather", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/* Pseudo State */
+
+.nav-bar:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+  transition: 0.2s ease-in;
+}
+
+.navigation ul a:hover {
+  color: #fc0000;
+  transition: all 0.1s ease-in-out;
+}
+
+.information .btn:hover {
+  border: 1px solid #fff;
+  box-shadow: none;
+}
+
+.information .btn:hover a {
+  color: red;
+}
+
+.information .btn:active {
+  transform: scale(0.95);
+}
+
+.grid-container:hover {
+  opacity: 1;
+  border-radius: 35px;
+  transition: all 0.3s ease;
+}
+
+.about .btn:hover {
+  transition: all 0.3s;
+  background-color: #fc0000;
+}
+
+.about .btn:hover a {
+  color: #fff;
+  transition: all 0.4s ease;
+}
+
+.about .btn:active {
+  transform: scale(0.95);
+}
+
+.email .icon:hover::after {
+  content: "ray.kurbanov@gmail.com";
+  font-weight: bold;
+  position: absolute;
+  bottom: 70px;
+  left: -35px;
+}
+
+.linkedin .icon:hover::after {
+  content: "LinkedIn";
+  font-weight: bold;
+  position: absolute;
+  bottom: 60px;
+  left: -4px;
+  text-align: center;
+}
+
+.github .icon:hover::after {
+  content: "GitHub";
+  font-weight: bold;
+  position: absolute;
+  bottom: 60px;
+  left: 2px;
+  text-align: center;
+}
+
+.phone .icon:hover::after {
+  content: "(224)-434-1300";
+  font-weight: bold;
+  position: absolute;
+  bottom: 60px;
+  left: -20px;
+  text-align: center;
+}
+
+.contact .contact-info .icon:hover {
+  transform: translate(5px, -5px);
+  transition: all 0.5s ease-in-out;
+}
+
+.about .image:hover {
+  width: 40%;
+  height: 80%;
+  border: 1px solid red;
+  border-radius: 10px;
+  transition: all 0.5s ease-in-out;
+}
