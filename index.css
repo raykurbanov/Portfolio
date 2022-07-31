@@ -13,7 +13,7 @@
 
 .homepage {
   min-height: 100vh;
-  background-image: url("/img/background.jpg");
+  background-image: url("./img/background.jpg");
   background-size: cover;
   background-position: center right;
   height: 100%;
@@ -286,21 +286,21 @@
 }
 
 .projects .img-1 {
-  background-image: url("/img/vanillajavascript.jpg");
+  background-image: url("./img/vanillajavascript.jpg");
   object-fit: cover;
   background-size: cover;
   background-position: center center;
 }
 
 .projects .img-2 {
-  background-image: url("/img/frontend.jpg");
+  background-image: url("./img/frontend.jpg");
   object-fit: cover;
   background-size: cover;
   background-position: center center;
 }
 
 .projects .img-3 {
-  background-image: url("/img/backend.jpg");
+  background-image: url("./img/backend.jpg");
   object-fit: cover;
   background-size: cover;
   background-position: center center;
@@ -329,7 +329,7 @@
 }
 
 .about .image {
-  background-image: url("/img/picture.jpg");
+  background-image: url("./img/picture.jpg");
   object-fit: cover;
   background-size: cover;
   background-position: center center;
